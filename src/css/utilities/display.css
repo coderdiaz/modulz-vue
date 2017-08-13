@@ -1,0 +1,69 @@
+/* Display */
+
+.display-none         { display: none; }
+.display-block        { display: block; }
+.display-flex           { display: flex; }
+.display-inline       { display: inline; }
+.display-inlineBlock  { display: inline-block; }
+.display-inlineFlex     { display: inline-flex; }
+.display-inlineTable  { display: inline-table; }
+.display-table        { display: table; }
+.display-tableCell    { display: table-cell; }
+.display-tableColumn  { display: table-column; }
+.display-tableRow     { display: table-row; }
+
+@media (--breakpoint-1) {
+  .bp1-display-none         { display: none; }
+  .bp1-display-block        { display: block; }
+  .bp1-display-flex           { display: flex; }
+  .bp1-display-inline       { display: inline; }
+  .bp1-display-inlineBlock  { display: inline-block; }
+  .bp1-display-inlineFlex     { display: inline-flex; }
+  .bp1-display-inlineTable  { display: inline-table; }
+  .bp1-display-table        { display: table; }
+  .bp1-display-tableCell    { display: table-cell; }
+  .bp1-display-tableColumn  { display: table-column; }
+  .bp1-display-tableRow     { display: table-row; }
+}
+
+@media (--breakpoint-2) {
+  .bp2-display-none         { display: none; }
+  .bp2-display-block        { display: block; }
+  .bp2-display-flex           { display: flex; }
+  .bp2-display-inline       { display: inline; }
+  .bp2-display-inlineBlock  { display: inline-block; }
+  .bp2-display-inlineFlex     { display: inline-flex; }
+  .bp2-display-inlineTable  { display: inline-table; }
+  .bp2-display-table        { display: table; }
+  .bp2-display-tableCell    { display: table-cell; }
+  .bp2-display-tableColumn  { display: table-column; }
+  .bp2-display-tableRow     { display: table-row; }
+}
+
+@media (--breakpoint-3) {
+  .bp3-display-none         { display: none; }
+  .bp3-display-block        { display: block; }
+  .bp3-display-flex           { display: flex; }
+  .bp3-display-inline       { display: inline; }
+  .bp3-display-inlineBlock  { display: inline-block; }
+  .bp3-display-inlineFlex     { display: inline-flex; }
+  .bp3-display-inlineTable  { display: inline-table; }
+  .bp3-display-table        { display: table; }
+  .bp3-display-tableCell    { display: table-cell; }
+  .bp3-display-tableColumn  { display: table-column; }
+  .bp3-display-tableRow     { display: table-row; }
+}
+
+@media (--breakpoint-4) {
+  .bp4-display-none         { display: none; }
+  .bp4-display-block        { display: block; }
+  .bp4-display-flex           { display: flex; }
+  .bp4-display-inline       { display: inline; }
+  .bp4-display-inlineBlock  { display: inline-block; }
+  .bp4-display-inlineFlex     { display: inline-flex; }
+  .bp4-display-inlineTable  { display: inline-table; }
+  .bp4-display-table        { display: table; }
+  .bp4-display-tableCell    { display: table-cell; }
+  .bp4-display-tableColumn  { display: table-column; }
+  .bp4-display-tableRow     { display: table-row; }
+}

@@ -1,0 +1,39 @@
+/* User Select */
+
+.us-none        { user-select: none; }
+.us-auto        { user-select: auto; }
+.us-text        { user-select: text; }
+.us-contain     { user-select: contain; }
+.us-all         { user-select: all; }
+
+@media (--breakpoint-1) {
+    .bp1-us-none        { user-select: none; }
+    .bp1-us-auto        { user-select: auto; }
+    .bp1-us-text        { user-select: text; }
+    .bp1-us-contain     { user-select: contain; }
+    .bp1-us-all         { user-select: all; }
+}
+
+@media (--breakpoint-2) {
+    .bp2-us-none        { user-select: none; }
+    .bp2-us-auto        { user-select: auto; }
+    .bp2-us-text        { user-select: text; }
+    .bp2-us-contain     { user-select: contain; }
+    .bp2-us-all         { user-select: all; }
+}
+
+@media (--breakpoint-3) {
+    .bp3-us-none        { user-select: none; }
+    .bp3-us-auto        { user-select: auto; }
+    .bp3-us-text        { user-select: text; }
+    .bp3-us-contain     { user-select: contain; }
+    .bp3-us-all         { user-select: all; }
+}
+
+@media (--breakpoint-4) {
+    .bp4-us-none        { user-select: none; }
+    .bp4-us-auto        { user-select: auto; }
+    .bp4-us-text        { user-select: text; }
+    .bp4-us-contain     { user-select: contain; }
+    .bp4-us-all         { user-select: all; }
+}

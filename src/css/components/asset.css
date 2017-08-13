@@ -1,0 +1,7 @@
+.Asset {
+    width: var(--spacing-2);
+    height: var(--spacing-2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

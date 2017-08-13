@@ -1,0 +1,44 @@
+.Switch {
+    position: relative;
+    display: inline-block;
+    width: var(--spacing-5);
+    height: var(--spacing-2);
+}
+
+.Switch input {
+    display: none;
+}
+
+.Switch div {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--gray400);
+    transition: all 100ms;
+    border-radius: 9999px;
+}
+
+.Switch div:before {
+    position: absolute;
+    content: "";
+    height: var(--spacing-3);
+    width: var(--spacing-3);
+    left: 0;
+    bottom: -4px;
+    background-color: var(--gray500);
+    transition: all 100ms ease;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(32,52,61,.05), 0 1px 3px rgba(0,0,0,.05);
+}
+
+.Switch input:checked + div {
+    background-color: var(--blue300);
+}
+
+.Switch input:checked + div:before {
+    transform: translateX(var(--spacing-2));
+    background-color: var(--blue500);
+}

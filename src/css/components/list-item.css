@@ -1,0 +1,40 @@
+.ListItemGroup {
+    list-style: none;
+    padding-top: var(--spacing-1);
+    padding-bottom: var(--spacing-1);
+    width: 100%;
+}
+
+.ListItem {
+    display: flex;
+    padding-left: var(--spacing-2);
+    padding-right: var(--spacing-2);
+    padding-top: var(--spacing-1);
+    padding-bottom: var(--spacing-1);
+    min-height: var(--spacing-4);
+    align-items: center;
+    transition: all 100ms linear;
+}
+
+.ListItem.large {
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
+    min-height: var(--spacing-5);
+}
+
+.ListItem.interactive:hover {
+    background-color: var(--blue200);
+}
+
+.ListItem.highlighted {
+    background-color: var(--blue200);
+}
+
+.ListItem.highlighted:hover {
+    background-color: var(--blue300);
+}
+
+.ListItem.active {
+    background-color: var(--blue500);
+    color: var(--white);
+}

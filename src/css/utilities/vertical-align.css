@@ -1,0 +1,54 @@
+/* Vertical Align */
+
+.va-baseline    { vertical-align: baseline; }
+.va-sub         { vertical-align: sub; }
+.va-super       { vertical-align: super; }
+.va-top         { vertical-align: top; }
+.va-textTop     { vertical-align: text-top; }
+.va-middle      { vertical-align: middle; }
+.va-bottom      { vertical-align: bottom; }
+.va-textBottom  { vertical-align: text-bottom; }
+
+@media (--breakpoint-1) {
+    .bp1-va-baseline    { vertical-align: baseline; }
+    .bp1-va-sub         { vertical-align: sub; }
+    .bp1-va-super       { vertical-align: super; }
+    .bp1-va-top         { vertical-align: top; }
+    .bp1-va-textTop     { vertical-align: text-top; }
+    .bp1-va-middle      { vertical-align: middle; }
+    .bp1-va-bottom      { vertical-align: bottom; }
+    .bp1-va-textBottom  { vertical-align: text-bottom; }
+}
+
+@media (--breakpoint-2) {
+    .bp2-va-baseline    { vertical-align: baseline; }
+    .bp2-va-sub         { vertical-align: sub; }
+    .bp2-va-super       { vertical-align: super; }
+    .bp2-va-top         { vertical-align: top; }
+    .bp2-va-textTop     { vertical-align: text-top; }
+    .bp2-va-middle      { vertical-align: middle; }
+    .bp2-va-bottom      { vertical-align: bottom; }
+    .bp2-va-textBottom  { vertical-align: text-bottom; }
+}
+
+@media (--breakpoint-3) {
+    .bp3-va-baseline    { vertical-align: baseline; }
+    .bp3-va-sub         { vertical-align: sub; }
+    .bp3-va-super       { vertical-align: super; }
+    .bp3-va-top         { vertical-align: top; }
+    .bp3-va-textTop     { vertical-align: text-top; }
+    .bp3-va-middle      { vertical-align: middle; }
+    .bp3-va-bottom      { vertical-align: bottom; }
+    .bp3-va-textBottom  { vertical-align: text-bottom; }
+}
+
+@media (--breakpoint-4) {
+    .bp4-va-baseline    { vertical-align: baseline; }
+    .bp4-va-sub         { vertical-align: sub; }
+    .bp4-va-super       { vertical-align: super; }
+    .bp4-va-top         { vertical-align: top; }
+    .bp4-va-textTop     { vertical-align: text-top; }
+    .bp4-va-middle      { vertical-align: middle; }
+    .bp4-va-bottom      { vertical-align: bottom; }
+    .bp4-va-textBottom  { vertical-align: text-bottom; }
+}

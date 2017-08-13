@@ -1,0 +1,37 @@
+/* Fill */
+
+.fill-white                { fill: var(--white); }
+.fill-black                { fill: var(--black); }
+.fill-transparent          { fill: var(--transparent); }
+
+.fill-white--translucent   { fill: rgba(255,255,255, var(--translucent)); }
+.fill-white--transparent   { fill: rgba(255,255,255, var(--transparent)); }
+.fill-white--pellucid      { fill: rgba(255,255,255, var(--pellucid)); }
+.fill-white--limpid        { fill: rgba(255,255,255, var(--limpid)); }
+
+.fill-black--translucent   { fill: rgba(0,0,0, var(--translucent)); }
+.fill-black--transparent   { fill: rgba(0,0,0, var(--transparent)); }
+.fill-black--pellucid      { fill: rgba(0,0,0, var(--pellucid)); }
+.fill-black--limpid        { fill: rgba(0,0,0, var(--limpid)); }
+
+.fill-red                  { fill: var(--red500); }
+.fill-pink                 { fill: var(--pink500); }
+.fill-purple               { fill: var(--purple500); }
+.fill-indigo               { fill: var(--indigo500); }
+.fill-blue                 { fill: var(--blue500); }
+.fill-cyan                 { fill: var(--cyan); }
+.fill-teal                 { fill: var(--teal500); }
+.fill-green                { fill: var(--green500); }
+.fill-lime                 { fill: var(--lime500); }
+.fill-yellow               { fill: var(--yellow500); }
+.fill-amber                { fill: var(--amber500); }
+.fill-orange               { fill: var(--orange500); }
+.fill-brown                { fill: var(--brown); }
+.fill-gray                 { fill: var(--gray); }
+
+.fill-pearl                { fill: var(--gray100); }
+.fill-snow                 { fill: var(--gray200); }
+.fill-smoke                { fill: var(--gray300); }
+.fill-steel                { fill: var(--gray500); }
+.fill-lead                 { fill: var(--gray800); }
+.fill-charcoal             { fill: var(--gray900); }

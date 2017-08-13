@@ -1,0 +1,207 @@
+/* Variables */
+
+:root {
+
+    /* Media queries */
+
+    @custom-media --breakpoint-1 (min-width: 38em);
+    @custom-media --breakpoint-2 (min-width: 62em);
+    @custom-media --breakpoint-3 (min-width: 68em);
+    @custom-media --breakpoint-4 (min-width: 110em);
+
+    /* Color palette */
+
+    --black: hsl(0, 0%, 0%);
+    --black900: hsla(0, 0%, 0%, .9);
+    --black700: hsla(0, 0%, 0%, .7);
+    --black500: hsla(0, 0%, 0%, .5);
+    --black300: hsla(0, 0%, 0%, .3);
+    --black100: hsla(0, 0%, 0%, .1);
+
+    --white: hsl(0, 0%, 100%);
+    --white900: hsla(0, 0%, 100%, .9);
+    --white700: hsla(0, 0%, 100%, .7);
+    --white500: hsla(0, 0%, 100%, .5);
+    --white300: hsla(0, 0%, 100%, .3);
+    --white100: hsla(0, 0%, 100%, .1);
+
+    --pink100: hsl(332, 94%, 97%);
+    --pink500: hsl(338, 100%, 57%);
+
+    --purple100: hsl(288, 64%, 96%);
+    --purple500: hsl(268, 60%, 47%);
+
+    --indigo100: hsl(226, 56%, 48%);
+    --indigo500: hsl(226, 60%, 54%);
+
+    --lightBlue: #03A9F4;
+
+    --cyan500: #00BCD4;
+
+
+
+
+
+
+
+
+
+
+    --blue100: hsl(205, 100%, 99%);
+    --blue200: hsl(205, 100%, 97%);
+    --blue300: hsl(205, 85%, 88%);
+    --blue400: hsl(205, 85%, 78%);
+    --blue500: hsl(205, 100%, 50%);
+    --blue600: hsl(205, 100%, 45%);
+    --blue700: hsl(205, 100%, 35%);
+    --blue800: hsl(205, 100%, 12%);
+    --blue900: hsl(205, 100%, 10%);
+
+    --red100: hsl(0, 100%, 99%);
+    --red200: hsl(0, 100%, 97%);
+    --red300: hsl(0, 85%, 88%);
+    --red400: hsl(0, 85%, 78%);
+    --red500: hsl(0, 100%, 65%);
+    --red600: hsl(0, 100%, 45%);
+    --red700: hsl(0, 100%, 40%);
+    --red800: hsl(0, 100%, 12%);
+    --red900: hsl(0, 100%, 10%);
+
+    --green100: hsl(150, 60%, 99%);
+    --green200: hsl(150, 60%, 97%);
+    --green300: hsl(150, 45%, 88%);
+    --green400: hsl(150, 45%, 78%);
+    --green500: hsl(150, 60%, 56%);
+    --green600: hsl(150, 60%, 50%);
+    --green700: hsl(150, 60%, 38%);
+    --green800: hsl(150, 60%, 12%);
+    --green900: hsl(150, 60%, 10%);
+
+    --gray100: hsl(205, 50%, 99%); /* Background */
+    --gray200: hsl(205, 35%, 97%); /* Background */
+    --gray300: hsl(205, 29%, 88%); /* Stroke */
+    --gray400: hsl(205, 22%, 78%); /* Stroke */
+    --gray500: hsl(205, 14%, 46%); /* Background */
+    --gray600: hsl(205, 34%, 25%); /* Background */
+    --gray700: hsl(205, 25%, 33%); /* Text */
+    --gray800: hsl(205, 30%, 12%); /* Background */
+    --gray900: hsl(205, 30%, 7%); /* Background & text */
+
+    --bronze100: hsl(12, 90%, 97%);
+    --bronze200: hsl(12, 90%, 95%);
+    --bronze300: hsl(12, 80%, 88%);
+    --bronze400: hsl(12, 80%, 78%);
+    --bronze500: hsl(12, 36%, 70%);
+    --bronze600: hsl(12, 60%, 50%);
+    --bronze700: hsl(12, 60%, 40%);
+    --bronze800: hsl(12, 50%, 12%);
+    --bronze900: hsl(12, 50%, 10%);
+
+    --gold100: hsl(31, 80%, 98%);
+    --gold200: hsl(31, 80%, 95%);
+    --gold300: hsl(31, 60%, 88%);
+    --gold400: hsl(31, 60%, 78%);
+    --gold500: hsl(31, 45%, 78%);
+    --gold600: hsl(31, 40%, 50%);
+    --gold700: hsl(31, 40%, 38%);
+    --gold800: hsl(31, 30%, 12%);
+    --gold900: hsl(31, 30%, 10%);
+
+    --amber100: hsl(40, 100%, 99%);
+    --amber200: hsl(40, 100%, 97%);
+    --amber300: hsl(40, 85%, 88%);
+    --amber400: hsl(40, 85%, 78%);
+    --amber500: hsl(40, 100%, 50%);
+    --amber600: hsl(40, 100%, 45%);
+    --amber700: hsl(40, 100%, 35%);
+    --amber800: hsl(40, 100%, 12%);
+    --amber900: hsl(40, 100%, 10%);
+
+
+
+
+    --teal100: hsl(172, 100%, 35%);
+    --teal300: hsl(172, 95%, 92%);
+    --teal500: hsl(180, 100%, 36%);
+    --teal700: hsl(172, 52%, 38%);
+
+    --lime100: hsl(68, 74%, 50%);
+    --lime500: hsl(68, 82%, 50%);
+
+    --yellow100: hsl(54, 98%, 50%);
+    --yellow500: hsl(52, 100%, 50%);
+
+    --orange100: hsl(36, 100%, 50%);
+    --orange500: hsl(30, 100%, 50%);
+
+    --crimson100: hsl(18, 100%, 60%);
+    --crimson500: hsl(18, 100%, 60%);
+
+    --lavender100: hsl(255, 74%, 60%);
+    --lavender500: hsl(255, 74%, 60%);
+
+    --violet100: hsl(264, 52%, 45%);
+    --violet500: hsl(246, 60%, 52%);
+
+    --brown500: #795548;
+
+    /* Font sizes  */
+
+    --fontSize-1: .8rem;
+    --fontSize-2: 1.2rem;
+    --fontSize-3: 1.4rem;
+    --fontSize-4: 1.6rem;
+    --fontSize-5: 1.8rem;
+    --fontSize-6: 2rem;
+    --fontSize-7: 2.2rem;
+    --fontSize-8: 2.6rem;
+    --fontSize-9: 3.2rem;
+    --fontSize-10: 4rem;
+    --fontSize-11: 4.6rem;
+    --fontSize-12: 7.2rem;
+
+    /* Spacing  */
+
+    --spacing-1: .8rem;
+    --spacing-2: 1.6rem;
+    --spacing-3: 2.4rem;
+    --spacing-4: 3.2rem;
+    --spacing-5: 4rem;
+    --spacing-6: 4.8rem;
+    --spacing-7: 6.4rem;
+    --spacing-8: 8rem;
+    --spacing-9: 9.6rem;
+
+    /* Transition durations  */
+
+    --transitionDuration-1: 50ms;
+    --transitionDuration-2: 100ms;
+    --transitionDuration-3: 200ms;
+    --transitionDuration-4: 400ms;
+    --transitionDuration-5: 1000ms;
+
+    /* Border radius  */
+
+    --borderRadius-1: 2px;
+    --borderRadius-2: 4px;
+    --borderRadius-3: 8px;
+
+    /* Leading  */
+
+    --leading-1: 1.2rem;
+    --leading-2: 1.6rem;
+    --leading-3: 2rem;
+    --leading-4: 2.4rem;
+    --leading-5: 2.8rem;
+    --leading-6: 3.2rem;
+    --leading-7: 3.6rem;
+    --leading-8: 4.4rem;
+    --leading-9: 6.8rem;
+
+    /* Shadow */
+
+    --Shadow-1: 0 2px 4px rgba(32, 52, 61, 0.03), 0 1px 2px rgba(0, 0, 0, .06);
+    --Shadow-2: 0 4px 8px rgba(0,0,0,.05), 0 2px 4px rgba(32,52,61,.05);
+    --Shadow-3: 0 7px 14px rgba(32,52,61,.05), 0 3px 6px rgba(0,0,0,.05);
+    --Shadow-4: 0 1px 3px rgba(0,0,0,.05), 0 4px 6px rgba(32,52,61,.05);
+}

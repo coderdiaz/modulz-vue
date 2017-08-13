@@ -1,0 +1,69 @@
+/* Border width */
+
+.bw-0   { border-width: 0; }
+.btw-0  { border-top-width: 0; }
+.brw-0  { border-right-width: 0; }
+.bbw-0  { border-bottom-width: 0; }
+.blw-0  { border-left-width: 0; }
+
+.bw-1   { border-width: 1px; }
+.btw-1  { border-top-width: 1px; }
+.brw-1  { border-right-width: 1px; }
+.bbw-1  { border-bottom-width: 1px; }
+.blw-1  { border-left-width: 1px; }
+
+@media (--breakpoint-1) {
+    .bp1-bw-0   { border-width: 0; }
+    .bp1-btw-0  { border-top-width: 0; }
+    .bp1-brw-0  { border-right-width: 0; }
+    .bp1-bbw-0  { border-bottom-width: 0; }
+    .bp1-blw-0  { border-left-width: 0; }
+
+    .bp1-bw-1   { border-width: 1px; }
+    .bp1-btw-1  { border-top-width: 1px; }
+    .bp1-brw-1  { border-right-width: 1px; }
+    .bp1-bbw-1  { border-bottom-width: 1px; }
+    .bp1-blw-1  { border-left-width: 1px; }
+}
+
+@media (--breakpoint-2) {
+    .bp2-bw-0   { border-width: 0; }
+    .bp2-btw-0  { border-top-width: 0; }
+    .bp2-brw-0  { border-right-width: 0; }
+    .bp2-bbw-0  { border-bottom-width: 0; }
+    .bp2-blw-0  { border-left-width: 0; }
+
+    .bp2-bw-1   { border-width: 1px; }
+    .bp2-btw-1  { border-top-width: 1px; }
+    .bp2-brw-1  { border-right-width: 1px; }
+    .bp2-bbw-1  { border-bottom-width: 1px; }
+    .bp2-blw-1  { border-left-width: 1px; }
+}
+
+@media (--breakpoint-3) {
+    .bp3-bw-0   { border-width: 0; }
+    .bp3-btw-0  { border-top-width: 0; }
+    .bp3-brw-0  { border-right-width: 0; }
+    .bp3-bbw-0  { border-bottom-width: 0; }
+    .bp3-blw-0  { border-left-width: 0; }
+
+    .bp3-bw-1   { border-width: 1px; }
+    .bp3-btw-1  { border-top-width: 1px; }
+    .bp3-brw-1  { border-right-width: 1px; }
+    .bp3-bbw-1  { border-bottom-width: 1px; }
+    .bp3-blw-1  { border-left-width: 1px; }
+}
+
+@media (--breakpoint-4) {
+    .bp4-bw-0   { border-width: 0; }
+    .bp4-btw-0  { border-top-width: 0; }
+    .bp4-brw-0  { border-right-width: 0; }
+    .bp4-bbw-0  { border-bottom-width: 0; }
+    .bp4-blw-0  { border-left-width: 0; }
+
+    .bp4-bw-1   { border-width: 1px; }
+    .bp4-btw-1  { border-top-width: 1px; }
+    .bp4-brw-1  { border-right-width: 1px; }
+    .bp4-bbw-1  { border-bottom-width: 1px; }
+    .bp4-blw-1  { border-left-width: 1px; }
+}

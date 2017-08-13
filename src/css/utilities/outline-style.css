@@ -1,0 +1,59 @@
+/* Outline Style */
+
+.os-none    { outline-style: none; }
+.os-dotted  { outline-style: dotted; }
+.os-dashed  { outline-style: dashed; }
+.os-solid   { outline-style: solid; }
+.os-double  { outline-style: double; }
+.os-groove  { outline-style: groove; }
+.os-ridge   { outline-style: ridge; }
+.os-inset   { outline-style: inset; }
+.os-outset  { outline-style: outset; }
+
+@media (--breakpoint-1) {
+  .bp1-os-none    { outline-style: none; }
+  .bp1-os-dotted  { outline-style: dotted; }
+  .bp1-os-dashed  { outline-style: dashed; }
+  .bp1-os-solid   { outline-style: solid; }
+  .bp1-os-double  { outline-style: double; }
+  .bp1-os-groove  { outline-style: groove; }
+  .bp1-os-ridge   { outline-style: ridge; }
+  .bp1-os-inset   { outline-style: inset; }
+  .bp1-os-outset  { outline-style: outset; }
+}
+
+@media (--breakpoint-2) {
+  .bp2-os-none    { outline-style: none; }
+  .bp2-os-dotted  { outline-style: dotted; }
+  .bp2-os-dashed  { outline-style: dashed; }
+  .bp2-os-solid   { outline-style: solid; }
+  .bp2-os-double  { outline-style: double; }
+  .bp2-os-groove  { outline-style: groove; }
+  .bp2-os-ridge   { outline-style: ridge; }
+  .bp2-os-inset   { outline-style: inset; }
+  .bp2-os-outset  { outline-style: outset; }
+}
+
+@media (--breakpoint-3) {
+  .bp3-os-none    { outline-style: none; }
+  .bp3-os-dotted  { outline-style: dotted; }
+  .bp3-os-dashed  { outline-style: dashed; }
+  .bp3-os-solid   { outline-style: solid; }
+  .bp3-os-double  { outline-style: double; }
+  .bp3-os-groove  { outline-style: groove; }
+  .bp3-os-ridge   { outline-style: ridge; }
+  .bp3-os-inset   { outline-style: inset; }
+  .bp3-os-outset  { outline-style: outset; }
+}
+
+@media (--breakpoint-4) {
+  .bp4-os-none    { outline-style: none; }
+  .bp4-os-dotted  { outline-style: dotted; }
+  .bp4-os-dashed  { outline-style: dashed; }
+  .bp4-os-solid   { outline-style: solid; }
+  .bp4-os-double  { outline-style: double; }
+  .bp4-os-groove  { outline-style: groove; }
+  .bp4-os-ridge   { outline-style: ridge; }
+  .bp4-os-inset   { outline-style: inset; }
+  .bp4-os-outset  { outline-style: outset; }
+}

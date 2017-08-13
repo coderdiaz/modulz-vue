@@ -1,0 +1,29 @@
+/* Word Break */
+
+.wb-normal      { word-break: normal; }
+.wb-breakAll    { word-break: break-all; }
+.wb-keepAll     { word-break: keep-all; }
+
+@media (--breakpoint-1) {
+    .bp1-wb-normal      { word-break: normal; }
+    .bp1-wb-breakAll    { word-break: break-all; }
+    .bp1-wb-keepAll     { word-break: keep-all; }
+}
+
+@media (--breakpoint-2) {
+    .bp2-wb-normal      { word-break: normal; }
+    .bp2-wb-breakAll    { word-break: break-all; }
+    .bp2-wb-keepAll     { word-break: keep-all; }
+}
+
+@media (--breakpoint-3) {
+    .bp3-wb-normal      { word-break: normal; }
+    .bp3-wb-breakAll    { word-break: break-all; }
+    .bp3-wb-keepAll     { word-break: keep-all; }
+}
+
+@media (--breakpoint-4) {
+    .bp4-wb-normal      { word-break: normal; }
+    .bp4-wb-breakAll    { word-break: break-all; }
+    .bp4-wb-keepAll     { word-break: keep-all; }
+}

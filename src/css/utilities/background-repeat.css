@@ -1,0 +1,44 @@
+/* Background Repeat */
+
+.br-repeat      { background-repeat: repeat; }
+.br-repeatX     { background-repeat: repeat-x; }
+.br-repeatY     { background-repeat: repeat-y; }
+.br-noRepeat    { background-repeat: no-repeat; }
+.br-space    { background-repeat: space; }
+.br-round    { background-repeat: round; }
+
+@media (--breakpoint-1) {
+    .bp1-br-repeat      { background-repeat: repeat; }
+    .bp1-br-repeatX     { background-repeat: repeat-x; }
+    .bp1-br-repeatY     { background-repeat: repeat-y; }
+    .bp1-br-noRepeat    { background-repeat: no-repeat; }
+    .bp1-br-space    { background-repeat: space; }
+    .bp1-br-round    { background-repeat: round; }
+}
+
+@media (--breakpoint-2) {
+    .bp2-br-repeat      { background-repeat: repeat; }
+    .bp2-br-repeatX     { background-repeat: repeat-x; }
+    .bp2-br-repeatY     { background-repeat: repeat-y; }
+    .bp2-br-noRepeat    { background-repeat: no-repeat; }
+    .bp2-br-space    { background-repeat: space; }
+    .bp2-br-round    { background-repeat: round; }
+}
+
+@media (--breakpoint-3) {
+    .bp3-br-repeat      { background-repeat: repeat; }
+    .bp3-br-repeatX     { background-repeat: repeat-x; }
+    .bp3-br-repeatY     { background-repeat: repeat-y; }
+    .bp3-br-noRepeat    { background-repeat: no-repeat; }
+    .bp3-br-space    { background-repeat: space; }
+    .bp3-br-round    { background-repeat: round; }
+}
+
+@media (--breakpoint-4) {
+    .bp4-br-repeat     { background-repeat: repeat; }
+    .bp4-br-repeatX    { background-repeat: repeat-x; }
+    .bp4-br-repeatY    { background-repeat: repeat-y; }
+    .bp4-br-noRepeat   { background-repeat: no-repeat; }
+    .bp4-br-space    { background-repeat: space; }
+    .bp4-br-round    { background-repeat: round; }
+}

@@ -1,0 +1,84 @@
+/* Max Width */
+
+.mw-10   { max-width: 10%; }
+.mw-20   { max-width: 20%; }
+.mw-25   { max-width: 25%; }
+.mw-30   { max-width: 30%; }
+.mw-33   { max-width: 33.3333333333%; }
+.mw-40   { max-width: 40%; }
+.mw-50   { max-width: 50%; }
+.mw-60   { max-width: 60%; }
+.mw-66   { max-width: 66.6666666666%; }
+.mw-70   { max-width: 70%; }
+.mw-75   { max-width: 75%; }
+.mw-80   { max-width: 80%; }
+.mw-90   { max-width: 90%; }
+.mw-100  { max-width: 100%; }
+
+@media (--breakpoint-1) {
+  .bp1-mw-10   { max-width: 10%; }
+  .bp1-mw-20   { max-width: 20%; }
+  .bp1-mw-25   { max-width: 25%; }
+  .bp1-mw-30   { max-width: 30%; }
+  .bp1-mw-33   { max-width: 33.3333333333%; }
+  .bp1-mw-40   { max-width: 40%; }
+  .bp1-mw-50   { max-width: 50%; }
+  .bp1-mw-60   { max-width: 60%; }
+  .bp1-mw-66   { max-width: 66.6666666666%; }
+  .bp1-mw-70   { max-width: 70%; }
+  .bp1-mw-75   { max-width: 75%; }
+  .bp1-mw-80   { max-width: 80%; }
+  .bp1-mw-90   { max-width: 90%; }
+  .bp1-mw-100  { max-width: 100%; }
+}
+
+@media (--breakpoint-2) {
+  .bp2-mw-10   { max-width: 10%; }
+  .bp2-mw-20   { max-width: 20%; }
+  .bp2-mw-25   { max-width: 25%; }
+  .bp2-mw-30   { max-width: 30%; }
+  .bp2-mw-33   { max-width: 33.3333333333%; }
+  .bp2-mw-40   { max-width: 40%; }
+  .bp2-mw-50   { max-width: 50%; }
+  .bp2-mw-60   { max-width: 60%; }
+  .bp2-mw-66   { max-width: 66.6666666666%; }
+  .bp2-mw-70   { max-width: 70%; }
+  .bp2-mw-75   { max-width: 75%; }
+  .bp2-mw-80   { max-width: 80%; }
+  .bp2-mw-90   { max-width: 90%; }
+  .bp2-mw-100  { max-width: 100%; }
+}
+
+@media (--breakpoint-3) {
+  .bp3-mw-10   { max-width: 10%; }
+  .bp3-mw-20   { max-width: 20%; }
+  .bp3-mw-25   { max-width: 25%; }
+  .bp3-mw-30   { max-width: 30%; }
+  .bp3-mw-33   { max-width: 33.3333333333%; }
+  .bp3-mw-40   { max-width: 40%; }
+  .bp3-mw-50   { max-width: 50%; }
+  .bp3-mw-60   { max-width: 60%; }
+  .bp3-mw-66   { max-width: 66.6666666666%; }
+  .bp3-mw-70   { max-width: 70%; }
+  .bp3-mw-75   { max-width: 75%; }
+  .bp3-mw-80   { max-width: 80%; }
+  .bp3-mw-90   { max-width: 90%; }
+  .bp3-mw-100  { max-width: 100%; }
+}
+
+@media (--breakpoint-4) {
+  .bp4-mw-10   { max-width: 10%; }
+  .bp4-mw-20   { max-width: 20%; }
+  .bp4-mw-25   { max-width: 25%; }
+  .bp4-mw-30   { max-width: 30%; }
+  .bp4-mw-33   { max-width: 33.3333333333%; }
+  .bp4-mw-40   { max-width: 40%; }
+  .bp4-mw-50   { max-width: 50%; }
+  .bp4-mw-60   { max-width: 60%; }
+  .bp4-mw-66   { max-width: 66.6666666666%; }
+  .bp4-mw-70   { max-width: 70%; }
+  .bp4-mw-75   { max-width: 75%; }
+  .bp4-mw-80   { max-width: 80%; }
+  .bp4-mw-90   { max-width: 90%; }
+  .bp4-mw-100  { max-width: 100%; }
+}

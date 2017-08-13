@@ -1,0 +1,39 @@
+/* White Space */
+
+.ws-normal  { white-space: normal; }
+.ws-nowrap  { white-space: nowrap; }
+.ws-pre     { white-space: pre; }
+.ws-preLine { white-space: pre-line; }
+.ws-preWrap { white-space: pre-wrap; }
+
+@media (--breakpoint-1) {
+    .bp1-ws-normal  { white-space: normal; }
+    .bp1-ws-nowrap  { white-space: nowrap; }
+    .bp1-ws-pre     { white-space: pre; }
+    .bp1-ws-preLine { white-space: pre-line; }
+    .bp1-ws-preWrap { white-space: pre-wrap; }
+}
+
+@media (--breakpoint-2) {
+    .bp2-ws-normal  { white-space: normal; }
+    .bp2-ws-nowrap  { white-space: nowrap; }
+    .bp2-ws-pre     { white-space: pre; }
+    .bp2-ws-preLine { white-space: pre-line; }
+    .bp2-ws-preWrap { white-space: pre-wrap; }
+}
+
+@media (--breakpoint-3) {
+    .bp3-ws-normal  { white-space: normal; }
+    .bp3-ws-nowrap  { white-space: nowrap; }
+    .bp3-ws-pre     { white-space: pre; }
+    .bp3-ws-preLine { white-space: pre-line; }
+    .bp3-ws-preWrap { white-space: pre-wrap; }
+}
+
+@media (--breakpoint-4) {
+    .bp4-ws-normal  { white-space: normal; }
+    .bp4-ws-nowrap  { white-space: nowrap; }
+    .bp4-ws-pre     { white-space: pre; }
+    .bp4-ws-preLine { white-space: pre-line; }
+    .bp4-ws-preWrap { white-space: pre-wrap; }
+}

@@ -1,0 +1,194 @@
+/* Cursor */
+
+.cursor-alias           { cursor: alias; }
+.cursor-allScroll       { cursor: all-scroll; }
+.cursor-auto            { cursor: auto; }
+.cursor-cell            { cursor: cell; }
+.cursor-contextMenu     { cursor: context-menu; }
+.cursor-colResize       { cursor: col-resize; }
+.cursor-copy            { cursor: copy; }
+.cursor-crosshair       { cursor: crosshair; }
+.cursor-default         { cursor: default; }
+.cursor-eResize         { cursor: e-resize; }
+.cursor-ewResize        { cursor: ew-resize; }
+.cursor-grab            { cursor: grab; }
+.cursor-grabbing        { cursor: grabbing; }
+.cursor-help            { cursor: help; }
+.cursor-move            { cursor: move; }
+.cursor-nResize         { cursor: n-resize; }
+.cursor-neResize        { cursor: ne-resize; }
+.cursor-neswResize      { cursor: nesw-resize; }
+.cursor-nsResize        { cursor: ns-resize; }
+.cursor-nwResize        { cursor: nw-resize; }
+.cursor-nwseResize      { cursor: nwse-resize; }
+.cursor-noDrop          { cursor: no-drop; }
+.cursor-none            { cursor: none; }
+.cursor-notAllowed      { cursor: not-allowed; }
+.cursor-pointer         { cursor: pointer; }
+.cursor-progress        { cursor: progress; }
+.cursor-rowResize       { cursor: row-resize; }
+.cursor-sResize         { cursor: s-resize; }
+.cursor-seResize        { cursor: se-resize; }
+.cursor-swResize        { cursor: sw-resize; }
+.cursor-text            { cursor: text; }
+.cursor-verticalText    { cursor: vertical-text; }
+.cursor-wResize         { cursor: w-resize; }
+.cursor-wait            { cursor: wait; }
+.cursor-zoomIn          { cursor: zoom-in; }
+.cursor-zoomOut         { cursor: zoom-out; }
+
+@media (--breakpoint-1) {
+  .bp1-cursor-alias           { cursor: alias; }
+  .bp1-cursor-allScroll       { cursor: all-scroll; }
+  .bp1-cursor-auto            { cursor: auto; }
+  .bp1-cursor-cell            { cursor: cell; }
+  .bp1-cursor-contextMenu     { cursor: context-menu; }
+  .bp1-cursor-colResize       { cursor: col-resize; }
+  .bp1-cursor-copy            { cursor: copy; }
+  .bp1-cursor-crosshair       { cursor: crosshair; }
+  .bp1-cursor-default         { cursor: default; }
+  .bp1-cursor-eResize         { cursor: e-resize; }
+  .bp1-cursor-ewResize        { cursor: ew-resize; }
+  .bp1-cursor-grab            { cursor: grab; }
+  .bp1-cursor-grabbing        { cursor: grabbing; }
+  .bp1-cursor-help            { cursor: help; }
+  .bp1-cursor-move            { cursor: move; }
+  .bp1-cursor-nResize         { cursor: n-resize; }
+  .bp1-cursor-neResize        { cursor: ne-resize; }
+  .bp1-cursor-neswResize      { cursor: nesw-resize; }
+  .bp1-cursor-nsResize        { cursor: ns-resize; }
+  .bp1-cursor-nwResize        { cursor: nw-resize; }
+  .bp1-cursor-nwseResize      { cursor: nwse-resize; }
+  .bp1-cursor-noDrop          { cursor: no-drop; }
+  .bp1-cursor-none            { cursor: none; }
+  .bp1-cursor-notAllowed      { cursor: not-allowed; }
+  .bp1-cursor-pointer         { cursor: pointer; }
+  .bp1-cursor-progress        { cursor: progress; }
+  .bp1-cursor-rowResize       { cursor: row-resize; }
+  .bp1-cursor-sResize         { cursor: s-resize; }
+  .bp1-cursor-seResize        { cursor: se-resize; }
+  .bp1-cursor-swResize        { cursor: sw-resize; }
+  .bp1-cursor-text            { cursor: text; }
+  .bp1-cursor-verticalText    { cursor: vertical-text; }
+  .bp1-cursor-wResize         { cursor: w-resize; }
+  .bp1-cursor-wait            { cursor: wait; }
+  .bp1-cursor-zoomIn          { cursor: zoom-in; }
+  .bp1-cursor-zoomOut         { cursor: zoom-out; }
+}
+
+@media (--breakpoint-2) {
+  .bp2-cursor-alias           { cursor: alias; }
+  .bp2-cursor-allScroll       { cursor: all-scroll; }
+  .bp2-cursor-auto            { cursor: auto; }
+  .bp2-cursor-cell            { cursor: cell; }
+  .bp2-cursor-contextMenu     { cursor: context-menu; }
+  .bp2-cursor-colResize       { cursor: col-resize; }
+  .bp2-cursor-copy            { cursor: copy; }
+  .bp2-cursor-crosshair       { cursor: crosshair; }
+  .bp2-cursor-default         { cursor: default; }
+  .bp2-cursor-eResize         { cursor: e-resize; }
+  .bp2-cursor-ewResize        { cursor: ew-resize; }
+  .bp2-cursor-grab            { cursor: grab; }
+  .bp2-cursor-grabbing        { cursor: grabbing; }
+  .bp2-cursor-help            { cursor: help; }
+  .bp2-cursor-move            { cursor: move; }
+  .bp2-cursor-nResize         { cursor: n-resize; }
+  .bp2-cursor-neResize        { cursor: ne-resize; }
+  .bp2-cursor-neswResize      { cursor: nesw-resize; }
+  .bp2-cursor-nsResize        { cursor: ns-resize; }
+  .bp2-cursor-nwResize        { cursor: nw-resize; }
+  .bp2-cursor-nwseResize      { cursor: nwse-resize; }
+  .bp2-cursor-noDrop          { cursor: no-drop; }
+  .bp2-cursor-none            { cursor: none; }
+  .bp2-cursor-notAllowed      { cursor: not-allowed; }
+  .bp2-cursor-pointer         { cursor: pointer; }
+  .bp2-cursor-progress        { cursor: progress; }
+  .bp2-cursor-rowResize       { cursor: row-resize; }
+  .bp2-cursor-sResize         { cursor: s-resize; }
+  .bp2-cursor-seResize        { cursor: se-resize; }
+  .bp2-cursor-swResize        { cursor: sw-resize; }
+  .bp2-cursor-text            { cursor: text; }
+  .bp2-cursor-verticalText    { cursor: vertical-text; }
+  .bp2-cursor-wResize         { cursor: w-resize; }
+  .bp2-cursor-wait            { cursor: wait; }
+  .bp2-cursor-zoomIn          { cursor: zoom-in; }
+  .bp2-cursor-zoomOut         { cursor: zoom-out; }
+}
+
+@media (--breakpoint-3) {
+  .bp3-cursor-alias           { cursor: alias; }
+  .bp3-cursor-allScroll       { cursor: all-scroll; }
+  .bp3-cursor-auto            { cursor: auto; }
+  .bp3-cursor-cell            { cursor: cell; }
+  .bp3-cursor-contextMenu     { cursor: context-menu; }
+  .bp3-cursor-colResize       { cursor: col-resize; }
+  .bp3-cursor-copy            { cursor: copy; }
+  .bp3-cursor-crosshair       { cursor: crosshair; }
+  .bp3-cursor-default         { cursor: default; }
+  .bp3-cursor-eResize         { cursor: e-resize; }
+  .bp3-cursor-ewResize        { cursor: ew-resize; }
+  .bp3-cursor-grab            { cursor: grab; }
+  .bp3-cursor-grabbing        { cursor: grabbing; }
+  .bp3-cursor-help            { cursor: help; }
+  .bp3-cursor-move            { cursor: move; }
+  .bp3-cursor-nResize         { cursor: n-resize; }
+  .bp3-cursor-neResize        { cursor: ne-resize; }
+  .bp3-cursor-neswResize      { cursor: nesw-resize; }
+  .bp3-cursor-nsResize        { cursor: ns-resize; }
+  .bp3-cursor-nwResize        { cursor: nw-resize; }
+  .bp3-cursor-nwseResize      { cursor: nwse-resize; }
+  .bp3-cursor-noDrop          { cursor: no-drop; }
+  .bp3-cursor-none            { cursor: none; }
+  .bp3-cursor-notAllowed      { cursor: not-allowed; }
+  .bp3-cursor-pointer         { cursor: pointer; }
+  .bp3-cursor-progress        { cursor: progress; }
+  .bp3-cursor-rowResize       { cursor: row-resize; }
+  .bp3-cursor-sResize         { cursor: s-resize; }
+  .bp3-cursor-seResize        { cursor: se-resize; }
+  .bp3-cursor-swResize        { cursor: sw-resize; }
+  .bp3-cursor-text            { cursor: text; }
+  .bp3-cursor-verticalText    { cursor: vertical-text; }
+  .bp3-cursor-wResize         { cursor: w-resize; }
+  .bp3-cursor-wait            { cursor: wait; }
+  .bp3-cursor-zoomIn          { cursor: zoom-in; }
+  .bp3-cursor-zoomOut         { cursor: zoom-out; }
+}
+
+@media (--breakpoint-4) {
+  .bp4-cursor-alias           { cursor: alias; }
+  .bp4-cursor-allScroll       { cursor: all-scroll; }
+  .bp4-cursor-auto            { cursor: auto; }
+  .bp4-cursor-cell            { cursor: cell; }
+  .bp4-cursor-contextMenu     { cursor: context-menu; }
+  .bp4-cursor-colResize       { cursor: col-resize; }
+  .bp4-cursor-copy            { cursor: copy; }
+  .bp4-cursor-crosshair       { cursor: crosshair; }
+  .bp4-cursor-default         { cursor: default; }
+  .bp4-cursor-eResize         { cursor: e-resize; }
+  .bp4-cursor-ewResize        { cursor: ew-resize; }
+  .bp4-cursor-grab            { cursor: grab; }
+  .bp4-cursor-grabbing        { cursor: grabbing; }
+  .bp4-cursor-help            { cursor: help; }
+  .bp4-cursor-move            { cursor: move; }
+  .bp4-cursor-nResize         { cursor: n-resize; }
+  .bp4-cursor-neResize        { cursor: ne-resize; }
+  .bp4-cursor-neswResize      { cursor: nesw-resize; }
+  .bp4-cursor-nsResize        { cursor: ns-resize; }
+  .bp4-cursor-nwResize        { cursor: nw-resize; }
+  .bp4-cursor-nwseResize      { cursor: nwse-resize; }
+  .bp4-cursor-noDrop          { cursor: no-drop; }
+  .bp4-cursor-none            { cursor: none; }
+  .bp4-cursor-notAllowed      { cursor: not-allowed; }
+  .bp4-cursor-pointer         { cursor: pointer; }
+  .bp4-cursor-progress        { cursor: progress; }
+  .bp4-cursor-rowResize       { cursor: row-resize; }
+  .bp4-cursor-sResize         { cursor: s-resize; }
+  .bp4-cursor-seResize        { cursor: se-resize; }
+  .bp4-cursor-swResize        { cursor: sw-resize; }
+  .bp4-cursor-text            { cursor: text; }
+  .bp4-cursor-verticalText    { cursor: vertical-text; }
+  .bp4-cursor-wResize         { cursor: w-resize; }
+  .bp4-cursor-wait            { cursor: wait; }
+  .bp4-cursor-zoomIn          { cursor: zoom-in; }
+  .bp4-cursor-zoomOut         { cursor: zoom-out; }
+}

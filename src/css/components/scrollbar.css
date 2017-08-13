@@ -1,0 +1,28 @@
+.Scrollbar {
+    overflow-x: scroll;
+}
+
+.Scrollbar::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+}
+
+.Scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.Scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--gray400);
+}
+
+/* Hidden scrollbars */
+
+.Scrollbar.hidden::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.Scrollbar.hidden::-webkit-scrollbar-track ,
+.Scrollbar.hidden::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}

@@ -1,14 +1,7 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { getEntries } = require('./utils.js');
 
 const config = {
-    entry: './src/js/main.js',
-    output: {
-        filename: 'js/modulz-js.min.js',
-        path: path.resolve(__dirname, '../public')
-    },
     resolve: {
         alias: {
             src: path.resolve(__dirname, '../src/'),
@@ -34,6 +27,11 @@ const config = {
                 })
             },
             {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: 'babel-loader'
+            },
+            {
                 test: /\.html$/,
                 use: [{
                     loader: 'html-loader',
@@ -57,27 +55,7 @@ const config = {
                 ]
             }
         ]
-    },
-    devServer: {
-        contentBase: path.resolve(__dirname, '../public'),
-        stats: 'errors-only',
-        port: 9000
-    },
-    devtool: "source-map",
-    plugins: [
-        new ExtractTextPlugin('css/modulz-css.min.css')
-    ]
+    }
 };
-
-const pages = getEntries('./docs/pages/', 'html');
-for (const pathname in pages) {
-    // Configured to generate the html file, define paths, etc.
-    const conf = {
-        filename: pathname + '.html', // html output pathname
-        template: pages[pathname], // Template path
-        inject: true
-    };
-    config.plugins.push(new HtmlWebpackPlugin(conf));
-}
 
 module.exports = config;

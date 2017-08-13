@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/modulz/modulz-vue#readme",
   "devDependencies": {
-    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
